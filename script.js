@@ -1,11 +1,21 @@
-// ===============================
-// CAR EXPRESS CYPRUS
-// EDIT THIS FILE TO ADD YOUR CARS
-// ===============================
-
 const WHATSAPP_NUMBER = "35796666511" "35797797907"; // <-- CHANGE THIS to your real WhatsApp number, digits only.
 
 const cars = [
+  {
+    id: 1,
+    make: "Mercedes-Benz",
+    model: "Vito",
+    year: 2015,
+    price: "€25.500",
+    mileage: "200,000 km",
+    fuel: "Diesel",
+    transmission: "Automatic",
+    engine: "2.1 V6",
+    power: "245 HP",
+    drive: "RWD",
+    image: "../src/12c8c66d-16f6-4062-9a1b-fae0b22f2336.jpg",
+    description: "Full white Mercedes Vito Premium class"
+  },
   {
     id: 2,
     make: "Mercedes-Benz",
