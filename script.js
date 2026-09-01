@@ -3,7 +3,7 @@
 // EDIT THIS FILE TO ADD YOUR CARS
 // ===============================
 
-const WHATSAPP_NUMBER = "35796666511"; // <-- CHANGE THIS to your real WhatsApp number, digits only.
+const WHATSAPP_NUMBER = "35796666511", "35797797907"; // <-- CHANGE THIS to your real WhatsApp number, digits only.
 
 const cars = [
   {
