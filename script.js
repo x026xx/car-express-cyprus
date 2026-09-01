@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "35796666511" "35797797907"; // <-- CHANGE THIS to your real WhatsApp number, digits only.
+const WHATSAPP_NUMBER = "35796666511";
 
 const cars = [
   {
@@ -13,7 +13,7 @@ const cars = [
     engine: "2.1 V6",
     power: "245 HP",
     drive: "RWD",
-    image: "../src/12c8c66d-16f6-4062-9a1b-fae0b22f2336.jpg",
+    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
     description: "Full white Mercedes Vito Premium class"
   },
   {
