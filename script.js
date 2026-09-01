@@ -18,7 +18,7 @@ const cars = [
     engine: "2.1L V6",
     power: "225 HP",
     drive: "RWD",
-    image: "<a href='https://postimg.cc/ts57ZQ6k' target='_blank'><img src='https://i.postimg.cc/fb4dPMTG/12c8c66d-16f6-4062-9a1b-fae0b22f2336.jpg' border='0' alt='12c8c66d-16f6-4062-9a1b-fae0b22f2336'></a>",
+    image: "file:///C:/Users/shahc/Downloads/12c8c66d-16f6-4062-9a1b-fae0b22f2336.jpg,
     description: "Premium white edition example. Replace this text with the real vehicle description."
   },
   {
