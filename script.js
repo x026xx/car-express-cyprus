@@ -7,21 +7,6 @@ const WHATSAPP_NUMBER = "35796666511" "35797797907"; // <-- CHANGE THIS to your 
 
 const cars = [
   {
-    id: 1,
-    make: "Mercedes-Benz",
-    model: "Vito",
-    year: 2015,
-    price: "€25.500",
-    mileage: "200,000 km",
-    fuel: "Diesel",
-    transmission: "Automatic",
-    engine: "2.1 V6",
-    power: "245 HP",
-    drive: "RWD",
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
-    description: "Full white Mercedes Vito Premium class"
-  },
-  {
     id: 2,
     make: "Mercedes-Benz",
     model: "C63 S AMG",
