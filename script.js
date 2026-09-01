@@ -18,7 +18,7 @@ const cars = [
     engine: "2.1 V6",
     power: "245 HP",
     drive: "RWD",
-    image: "12c8c66d-16f6-4062-9a1b-fae0b22f2336.jpg",
+    image: "src/12c8c66d-16f6-4062-9a1b-fae0b22f2336.jpg",
     description: "Full white Mercedes Vito Premium class"
   },
   {
