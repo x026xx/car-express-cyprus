@@ -141,20 +141,48 @@ const cars = [
 const grid = document.getElementById("carsGrid");
 const emptyState = document.getElementById("emptyState");
 
-function renderCars(filter = "all") {
-  const filtered = filter === "all" ? cars : cars.filter(car => car.make === filter);
-  grid.innerHTML = filtered.map(car => `
+const CARS_PER_PAGE = 9;
+let currentPage = 1;
+let currentFilter = "all";
+
+function renderCars(filter = currentFilter) {
+  currentFilter = filter;
+
+  const filtered = filter === "all"
+    ? cars
+    : cars.filter(car => car.make === filter);
+
+  const totalPages = Math.ceil(filtered.length / CARS_PER_PAGE);
+
+  if (currentPage > totalPages) {
+    currentPage = totalPages || 1;
+  }
+
+  const start = (currentPage - 1) * CARS_PER_PAGE;
+  const end = start + CARS_PER_PAGE;
+
+  const pageCars = filtered.slice(start, end);
+
+  grid.innerHTML = pageCars.map(car => `
     <article class="car-card" data-id="${car.id}">
       <div class="car-img">
         <img src="${car.image}" alt="${car.make} ${car.model}" loading="lazy">
         <span class="car-tag">AVAILABLE</span>
       </div>
+
       <div class="car-info">
         <div class="car-make">${car.make} • ${car.year}</div>
+
         <div class="car-title">${car.model}</div>
+
         <div class="car-specs">
-          <span>${car.mileage}</span><span>•</span><span>${car.fuel}</span><span>•</span><span>${car.transmission}</span>
+          <span>${car.mileage}</span>
+          <span>•</span>
+          <span>${car.fuel}</span>
+          <span>•</span>
+          <span>${car.transmission}</span>
         </div>
+
         <div class="car-bottom">
           <div class="car-price">${car.price}</div>
           <div class="view">VIEW DETAILS ↗</div>
@@ -162,9 +190,78 @@ function renderCars(filter = "all") {
       </div>
     </article>
   `).join("");
+
   emptyState.style.display = filtered.length ? "none" : "block";
+
   document.querySelectorAll(".car-card").forEach(card => {
-    card.addEventListener("click", () => openModal(Number(card.dataset.id)));
+    card.addEventListener("click", () => {
+      openModal(Number(card.dataset.id));
+    });
+  });
+
+  renderPagination(totalPages);
+}
+
+function renderPagination(totalPages) {
+  const pagination = document.getElementById("pagination");
+
+  if (totalPages <= 1) {
+    pagination.innerHTML = "";
+    return;
+  }
+
+  let html = "";
+
+  html += `
+    <button
+      onclick="changePage(${currentPage - 1})"
+      ${currentPage === 1 ? "disabled" : ""}
+    >
+      ←
+    </button>
+  `;
+
+  for (let i = 1; i <= totalPages; i++) {
+    html += `
+      <button
+        class="${i === currentPage ? "active" : ""}"
+        onclick="changePage(${i})"
+      >
+        ${i}
+      </button>
+    `;
+  }
+
+  html += `
+    <button
+      onclick="changePage(${currentPage + 1})"
+      ${currentPage === totalPages ? "disabled" : ""}
+    >
+      →
+    </button>
+  `;
+
+  html += `
+    <button
+      onclick="changePage(${totalPages})"
+      ${currentPage === totalPages ? "disabled" : ""}
+    >
+      Last
+    </button>
+  `;
+
+  pagination.innerHTML = html;
+}
+
+
+function changePage(page) {
+  currentPage = page;
+
+  renderCars(currentFilter);
+
+  document.getElementById("cars").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
   });
 }
 
@@ -196,9 +293,17 @@ function closeModal() {
 
 document.querySelectorAll(".filter").forEach(button => {
   button.addEventListener("click", () => {
-    document.querySelectorAll(".filter").forEach(b => b.classList.remove("active"));
+
+    document.querySelectorAll(".filter").forEach(b => {
+      b.classList.remove("active");
+    });
+
     button.classList.add("active");
-    renderCars(button.dataset.filter);
+
+    currentPage = 1;
+    currentFilter = button.dataset.filter;
+
+    renderCars(currentFilter);
   });
 });
 
