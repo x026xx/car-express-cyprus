@@ -8,18 +8,18 @@ const WHATSAPP_NUMBER = "35700000000"; // <-- CHANGE THIS to your real WhatsApp 
 const cars = [
   {
     id: 1,
-    make: "BMW",
-    model: "M5 Competition",
-    year: 2022,
-    price: "€74,900",
-    mileage: "42,000 km",
-    fuel: "Petrol",
+    make: "Mercedes-Benz",
+    model: "Vito Bluetec",
+    year: 2015,
+    price: "€25.500",
+    mileage: "200,000 km",
+    fuel: "Diesel",
     transmission: "Automatic",
-    engine: "4.4L V8",
-    power: "625 HP",
-    drive: "AWD",
-    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=85",
-    description: "Premium BMW M5 Competition example. Replace this text with the real vehicle description."
+    engine: "2.1L V6",
+    power: "225 HP",
+    drive: "RWD",
+    image: "hhttps://ibb.co/99HdPKdg",
+    description: "Premium white edition example. Replace this text with the real vehicle description."
   },
   {
     id: 2,
