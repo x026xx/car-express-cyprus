@@ -3,7 +3,7 @@
 // EDIT THIS FILE TO ADD YOUR CARS
 // ===============================
 
-const WHATSAPP_NUMBER = "35796666511", "35797797907"; // <-- CHANGE THIS to your real WhatsApp number, digits only.
+const WHATSAPP_NUMBER = "35796666511" "35797797907"; // <-- CHANGE THIS to your real WhatsApp number, digits only.
 
 const cars = [
   {
@@ -18,7 +18,7 @@ const cars = [
     engine: "2.1 V6",
     power: "245 HP",
     drive: "RWD",
-    image: "https://unsplash.com/photos/a-dark-mercedes-van-with-its-headlights-on-PNW4oeltJGo",
+    image: "../src/12c8c66d-16f6-4062-9a1b-fae0b22f2336.jpg",
     description: "Full white Mercedes Vito Premium class"
   },
   {
