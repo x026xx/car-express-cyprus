@@ -64,3 +64,53 @@ footer{background:#080808;color:#777;padding:35px 0}.footer-grid{display:flex;ju
   .container{width:min(calc(100% - 30px),var(--max))}.nav{height:75px}.brand{font-size:11px}.hero-content{padding-top:75px}.hero-copy{font-size:15px}.hero-trust{margin-top:60px}.stats-grid div{padding:20px 12px}
   .section,.dark-section{padding:75px 0}.cars-grid{grid-template-columns:1fr}.car-img{height:230px}.process-grid{grid-template-columns:1fr}.process-grid article,.process-grid article:not(:first-child){padding:25px 0;border-right:0;border-bottom:1px solid #ccc}.image-banner{height:470px}.about-photo{min-height:390px}.footer-grid{flex-direction:column;align-items:flex-start}.modal-body{padding:30px}.modal-body h2{font-size:34px}
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 50px 0 20px;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  min-width: 42px;
+  height: 42px;
+  padding: 0 14px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.pagination button:hover {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+.pagination button.active {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+.pagination button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+@media(max-width:600px){
+  .pagination {
+    margin-top: 35px;
+    gap: 6px;
+  }
+
+  .pagination button {
+    min-width: 38px;
+    height: 38px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+}
