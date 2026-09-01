@@ -14,7 +14,7 @@ const cars = [
     power: "245 HP",
     drive: "RWD",
     images: [
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788302841/photo_2026-09-02_00-39-15.jpg",
       "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
       "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
       "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
