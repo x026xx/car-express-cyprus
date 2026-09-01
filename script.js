@@ -636,6 +636,14 @@ const CARS_PER_PAGE = 9;
 let currentPage = 1;
 let currentFilter = "all";
 
+let currentCar = null;
+let currentImageIndex = 0;
+
+
+// ===============================
+// CARS
+// ===============================
+
 function renderCars(filter = currentFilter) {
   currentFilter = filter;
 
@@ -656,15 +664,25 @@ function renderCars(filter = currentFilter) {
 
   grid.innerHTML = pageCars.map(car => `
     <article class="car-card" data-id="${car.id}">
+
       <div class="car-img">
-        <img src="${car.images[0]}" alt="${car.make} ${car.model}" loading="lazy">
+        <img
+          src="${car.images[0]}"
+          alt="${car.make} ${car.model}"
+          loading="lazy"
+        >
         <span class="car-tag">AVAILABLE</span>
       </div>
 
       <div class="car-info">
-        <div class="car-make">${car.make} • ${car.year}</div>
 
-        <div class="car-title">${car.model}</div>
+        <div class="car-make">
+          ${car.make} • ${car.year}
+        </div>
+
+        <div class="car-title">
+          ${car.model}
+        </div>
 
         <div class="car-specs">
           <span>${car.mileage}</span>
@@ -675,9 +693,15 @@ function renderCars(filter = currentFilter) {
         </div>
 
         <div class="car-bottom">
-          <div class="car-price">${car.price}</div>
-          <div class="view">VIEW DETAILS ↗</div>
+          <div class="car-price">
+            ${car.price}
+          </div>
+
+          <div class="view">
+            VIEW DETAILS ↗
+          </div>
         </div>
+
       </div>
     </article>
   `).join("");
@@ -692,6 +716,11 @@ function renderCars(filter = currentFilter) {
 
   renderPagination(totalPages);
 }
+
+
+// ===============================
+// PAGINATION
+// ===============================
 
 function renderPagination(totalPages) {
   const pagination = document.getElementById("pagination");
@@ -756,20 +785,26 @@ function changePage(page) {
   });
 }
 
-let currentCar = null;
-let currentImageIndex = 0;
+
+// ===============================
+// GALLERY
+// ===============================
 
 function showGalleryImage() {
-  if (!currentCar || !currentCar.images) return;
+  if (!currentCar) return;
 
   const image = document.getElementById("modalImage");
   const counter = document.getElementById("galleryCounter");
 
   image.src = currentCar.images[currentImageIndex];
-  image.alt = `${currentCar.make} ${currentCar.model}`;
 
-  counter.textContent = `${currentImageIndex + 1} / ${currentCar.images.length}`;
+  image.alt =
+    `${currentCar.make} ${currentCar.model}`;
+
+  counter.textContent =
+    `${currentImageIndex + 1} / ${currentCar.images.length}`;
 }
+
 
 function nextImage() {
   if (!currentCar) return;
@@ -783,6 +818,7 @@ function nextImage() {
   showGalleryImage();
 }
 
+
 function previousImage() {
   if (!currentCar) return;
 
@@ -795,8 +831,14 @@ function previousImage() {
   showGalleryImage();
 }
 
+
+// ===============================
+// MODAL
+// ===============================
+
 function openModal(id) {
   const car = cars.find(c => c.id === id);
+
   if (!car) return;
 
   currentCar = car;
@@ -823,7 +865,14 @@ function openModal(id) {
     ["Engine", car.engine],
     ["Power", car.power],
     ["Drive", car.drive]
-  ].map(([k, v]) => `<div><b>${k}</b><br>${v}</div>`).join("");
+  ]
+    .map(([k, v]) => `
+      <div>
+        <b>${k}</b><br>
+        ${v}
+      </div>
+    `)
+    .join("");
 
   const text =
     `Hello CAR EXPRESS CYPRUS, I'm interested in the ${car.year} ${car.make} ${car.model} listed at ${car.price}.`;
@@ -832,18 +881,30 @@ function openModal(id) {
     `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 
   document.getElementById("carModal").classList.add("open");
-  document.getElementById("carModal").setAttribute("aria-hidden", "false");
+
+  document.getElementById("carModal")
+    .setAttribute("aria-hidden", "false");
 
   document.body.style.overflow = "hidden";
 }
 
+
 function closeModal() {
   document.getElementById("carModal").classList.remove("open");
-  document.getElementById("carModal").setAttribute("aria-hidden", "true");
+
+  document.getElementById("carModal")
+    .setAttribute("aria-hidden", "true");
+
   document.body.style.overflow = "";
 }
 
+
+// ===============================
+// FILTERS
+// ===============================
+
 document.querySelectorAll(".filter").forEach(button => {
+
   button.addEventListener("click", () => {
 
     document.querySelectorAll(".filter").forEach(b => {
@@ -857,30 +918,111 @@ document.querySelectorAll(".filter").forEach(button => {
 
     renderCars(currentFilter);
   });
+
 });
 
-document.querySelectorAll("[data-close]").forEach(el => el.addEventListener("click", closeModal));
-document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
 
-document.querySelector(".menu-toggle").addEventListener("click", () => {
-  document.querySelector(".nav-links").classList.toggle("open");
+// ===============================
+// CLOSE MODAL
+// ===============================
+
+document.querySelectorAll("[data-close]")
+  .forEach(el => {
+    el.addEventListener("click", closeModal);
+  });
+
+
+document.addEventListener("keydown", e => {
+
+  if (e.key === "Escape") {
+    closeModal();
+  }
+
+  if (e.key === "ArrowRight") {
+    nextImage();
+  }
+
+  if (e.key === "ArrowLeft") {
+    previousImage();
+  }
+
 });
 
-document.querySelectorAll(".nav-links a").forEach(link => {
-  link.addEventListener("click", () => document.querySelector(".nav-links").classList.remove("open"));
-});
 
-document.getElementById("contactForm").addEventListener("submit", e => {
-  e.preventDefault();
-  const name = document.getElementById("name").value.trim();
-  const phone = document.getElementById("phone").value.trim();
-  const message = document.getElementById("message").value.trim();
-  const text = `Hello CAR EXPRESS CYPRUS!\n\nName: ${name}\nPhone: ${phone}\nRequest: ${message}`;
-  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`, "_blank");
-});
+// ===============================
+// GALLERY BUTTONS
+// ===============================
 
-document.getElementById("galleryNext").addEventListener("click", nextImage);
-document.getElementById("galleryPrev").addEventListener("click", previousImage);
+document.getElementById("galleryNext")
+  .addEventListener("click", nextImage);
 
-document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("galleryPrev")
+  .addEventListener("click", previousImage);
+
+
+// ===============================
+// MOBILE MENU
+// ===============================
+
+document.querySelector(".menu-toggle")
+  .addEventListener("click", () => {
+
+    document.querySelector(".nav-links")
+      .classList.toggle("open");
+
+  });
+
+
+document.querySelectorAll(".nav-links a")
+  .forEach(link => {
+
+    link.addEventListener("click", () => {
+
+      document.querySelector(".nav-links")
+        .classList.remove("open");
+
+    });
+
+  });
+
+
+// ===============================
+// CONTACT FORM
+// ===============================
+
+document.getElementById("contactForm")
+  .addEventListener("submit", e => {
+
+    e.preventDefault();
+
+    const name =
+      document.getElementById("name").value.trim();
+
+    const phone =
+      document.getElementById("phone").value.trim();
+
+    const message =
+      document.getElementById("message").value.trim();
+
+    const text =
+      `Hello CAR EXPRESS CYPRUS!\n\n` +
+      `Name: ${name}\n` +
+      `Phone: ${phone}\n` +
+      `Request: ${message}`;
+
+    window.open(
+      `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`,
+      "_blank"
+    );
+
+  });
+
+
+// ===============================
+// START
+// ===============================
+
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
 renderCars();
