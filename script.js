@@ -657,7 +657,7 @@ function renderCars(filter = currentFilter) {
   grid.innerHTML = pageCars.map(car => `
     <article class="car-card" data-id="${car.id}">
       <div class="car-img">
-        <img src="${car.image}" alt="${car.make} ${car.model}" loading="lazy">
+        <img src="${car.images[0]}" alt="${car.make} ${car.model}" loading="lazy">
         <span class="car-tag">AVAILABLE</span>
       </div>
 
@@ -759,7 +759,7 @@ function changePage(page) {
 function openModal(id) {
   const car = cars.find(c => c.id === id);
   if (!car) return;
-  document.getElementById("modalImage").src = car.image;
+  document.getElementById("modalImage").src = car.images[0];
   document.getElementById("modalImage").alt = `${car.make} ${car.model}`;
   document.getElementById("modalMake").textContent = `${car.make} • ${car.year}`;
   document.getElementById("modalTitle").textContent = car.model;
