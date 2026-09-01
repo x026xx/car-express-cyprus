@@ -9,17 +9,17 @@ const cars = [
   {
     id: 1,
     make: "Mercedes-Benz",
-    model: "Vito Bluetec",
+    model: "Vito",
     year: 2015,
     price: "€25.500",
     mileage: "200,000 km",
     fuel: "Diesel",
     transmission: "Automatic",
-    engine: "2.1L V6",
-    power: "225 HP",
+    engine: "2.1 V6",
+    power: "245 HP",
     drive: "RWD",
-    image: "file:///C:/Users/shahc/Downloads/12c8c66d-16f6-4062-9a1b-fae0b22f2336.jpg",
-    description: "Premium white edition example. Replace this text with the real vehicle description."
+    image: "https://ibb.co/99HdPKdg",
+    description: "Full white Mercedes Vito Premium class"
   },
   {
     id: 2,
