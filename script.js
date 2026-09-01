@@ -90,6 +90,51 @@ const cars = [
     drive: "AWD",
     image: "https://images.unsplash.com/photo-1520031441872-265e4ff70366?auto=format&fit=crop&w=1200&q=85",
     description: "Luxury performance SUV. Replace the demo information with the real vehicle."
+  },
+  { 
+    id: 7,
+    make: "BMW",
+    model: "X5 M Competition",
+    year: 2023,
+    price: "€96,500",
+    mileage: "21,000 km",
+    fuel: "Petrol",
+    transmission: "Automatic",
+    engine: "4.4L V8",
+    power: "625 HP",
+    drive: "AWD",
+    image: "https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=1200&q=85",
+    description: "High-performance luxury SUV. Replace the demo information with the real car."
+  },
+  {
+    id: 8,
+    make: "BMW",
+    model: "X5 M Competition",
+    year: 2023,
+    price: "€96,500",
+    mileage: "21,000 km",
+    fuel: "Petrol",
+    transmission: "Automatic",
+    engine: "4.4L V8",
+    power: "625 HP",
+    drive: "AWD",
+    image: "https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=1200&q=85",
+    description: "High-performance luxury SUV. Replace the demo information with the real car."
+  },
+  {
+    id: 9,
+    make: "BMW",
+    model: "X5 M Competition",
+    year: 2023,
+    price: "€96,500",
+    mileage: "21,000 km",
+    fuel: "Petrol",
+    transmission: "Automatic",
+    engine: "4.4L V8",
+    power: "625 HP",
+    drive: "AWD",
+    image: "https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=1200&q=85",
+    description: "High-performance luxury SUV. Replace the demo information with the real car."
   }
 ];
 
