@@ -3,7 +3,7 @@
 // EDIT THIS FILE TO ADD YOUR CARS
 // ===============================
 
-const WHATSAPP_NUMBER = "35700000000"; // <-- CHANGE THIS to your real WhatsApp number, digits only.
+const WHATSAPP_NUMBER = "35796666511 35797797907"; // <-- CHANGE THIS to your real WhatsApp number, digits only.
 
 const cars = [
   {
@@ -18,7 +18,7 @@ const cars = [
     engine: "2.1L V6",
     power: "225 HP",
     drive: "RWD",
-    image: "hhttps://ibb.co/99HdPKdg",
+    image: "<a href='https://postimg.cc/ts57ZQ6k' target='_blank'><img src='https://i.postimg.cc/fb4dPMTG/12c8c66d-16f6-4062-9a1b-fae0b22f2336.jpg' border='0' alt='12c8c66d-16f6-4062-9a1b-fae0b22f2336'></a>",
     description: "Premium white edition example. Replace this text with the real vehicle description."
   },
   {
