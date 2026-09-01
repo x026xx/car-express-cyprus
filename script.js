@@ -756,23 +756,84 @@ function changePage(page) {
   });
 }
 
+let currentCar = null;
+let currentImageIndex = 0;
+
+function showGalleryImage() {
+  if (!currentCar || !currentCar.images) return;
+
+  const image = document.getElementById("modalImage");
+  const counter = document.getElementById("galleryCounter");
+
+  image.src = currentCar.images[currentImageIndex];
+  image.alt = `${currentCar.make} ${currentCar.model}`;
+
+  counter.textContent = `${currentImageIndex + 1} / ${currentCar.images.length}`;
+}
+
+function nextImage() {
+  if (!currentCar) return;
+
+  currentImageIndex++;
+
+  if (currentImageIndex >= currentCar.images.length) {
+    currentImageIndex = 0;
+  }
+
+  showGalleryImage();
+}
+
+function previousImage() {
+  if (!currentCar) return;
+
+  currentImageIndex--;
+
+  if (currentImageIndex < 0) {
+    currentImageIndex = currentCar.images.length - 1;
+  }
+
+  showGalleryImage();
+}
+
 function openModal(id) {
   const car = cars.find(c => c.id === id);
   if (!car) return;
-  document.getElementById("modalImage").src = car.images[0];
-  document.getElementById("modalImage").alt = `${car.make} ${car.model}`;
-  document.getElementById("modalMake").textContent = `${car.make} • ${car.year}`;
-  document.getElementById("modalTitle").textContent = car.model;
-  document.getElementById("modalPrice").textContent = car.price;
-  document.getElementById("modalDescription").textContent = car.description;
+
+  currentCar = car;
+  currentImageIndex = 0;
+
+  showGalleryImage();
+
+  document.getElementById("modalMake").textContent =
+    `${car.make} • ${car.year}`;
+
+  document.getElementById("modalTitle").textContent =
+    car.model;
+
+  document.getElementById("modalPrice").textContent =
+    car.price;
+
+  document.getElementById("modalDescription").textContent =
+    car.description;
+
   document.getElementById("modalSpecs").innerHTML = [
-    ["Mileage", car.mileage], ["Fuel", car.fuel], ["Transmission", car.transmission],
-    ["Engine", car.engine], ["Power", car.power], ["Drive", car.drive]
-  ].map(([k,v]) => `<div><b>${k}</b><br>${v}</div>`).join("");
-  const text = `Hello CAR EXPRESS CYPRUS, I'm interested in the ${car.year} ${car.make} ${car.model} listed at ${car.price}.`;
-  document.getElementById("modalWhatsApp").href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+    ["Mileage", car.mileage],
+    ["Fuel", car.fuel],
+    ["Transmission", car.transmission],
+    ["Engine", car.engine],
+    ["Power", car.power],
+    ["Drive", car.drive]
+  ].map(([k, v]) => `<div><b>${k}</b><br>${v}</div>`).join("");
+
+  const text =
+    `Hello CAR EXPRESS CYPRUS, I'm interested in the ${car.year} ${car.make} ${car.model} listed at ${car.price}.`;
+
+  document.getElementById("modalWhatsApp").href =
+    `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+
   document.getElementById("carModal").classList.add("open");
   document.getElementById("carModal").setAttribute("aria-hidden", "false");
+
   document.body.style.overflow = "hidden";
 }
 
@@ -817,6 +878,9 @@ document.getElementById("contactForm").addEventListener("submit", e => {
   const text = `Hello CAR EXPRESS CYPRUS!\n\nName: ${name}\nPhone: ${phone}\nRequest: ${message}`;
   window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`, "_blank");
 });
+
+document.getElementById("galleryNext").addEventListener("click", nextImage);
+document.getElementById("galleryPrev").addEventListener("click", previousImage);
 
 document.getElementById("year").textContent = new Date().getFullYear();
 renderCars();
