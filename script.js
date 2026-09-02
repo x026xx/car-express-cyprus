@@ -51,29 +51,57 @@ const cars = [
   },
   {
     id: 3,
-    make: "Range Rover",
-    model: "Autobiography",
-    year: 2020,
-    price: "€69,900",
-    mileage: "58,000 km",
+    make: "Mercedes-Benz",
+    model: "Vito",
+    year: 2015,
+    price: "€24.900",
+    mileage: "200,000 km",
     fuel: "Diesel",
     transmission: "Automatic",
-    engine: "3.0L",
-    power: "300 HP",
-    drive: "AWD",
+    engine: "2.1 V6",
+    power: "245 HP",
+    drive: "RWD",
     images: [
-      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85"
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349584/photo_2026-09-02_13-45-02.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349707/photo_2026-09-02_13-45-03.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349725/photo_2026-09-02_13-45-04.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349745/photo_2026-09-02_13-45-05.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349767/photo_2026-09-02_13-45-06.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349787/photo_2026-09-02_13-45-07.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349808/photo_2026-09-02_13-45-08.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349827/photo_2026-09-02_13-45-09.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349852/photo_2026-09-02_13-45-10.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349899/photo_2026-09-02_13-45-11.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349922/photo_2026-09-02_13-45-16.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349947/photo_2026-09-02_13-45-17.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349974/photo_2026-09-02_13-45-18.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349974/photo_2026-09-02_13-45-18.jpg""
 ],
-    description: "Luxury Range Rover with premium specification. Replace this demo data with your actual vehicle."
+    description: "Mercedes-Benz Vito 2.1119 Blue Tec SELECT Tourer G
+Tronic+ RWD L2 Euro 6 LWB Auto
+
+8 Seater, LWB, White, 7 Speed G Tronic Gearbox, Full Mercedes Benz Service History, 240k Miles, MOT Till March 2027, 2 Keys, 17 Inch Alloy Wheels, Cloth Interior, Advance On Board Computer with AM/FM Radio, AUX/Bluetooth Media Connectivity, Cruise Control, A/ C Climate Control, Front & Rear Electric Windows, Electric Folding Mirrors, Tyre Pressure Monitor, Reverse Camera.
+
+A Very Rare To Find In Colour & Spec Being The SELECT
+Model.
+
+This Is The LONG WHEEL BASE So Very SPACIOUS & COMFORTABLE.
+
+This Van Come Equipped With The Following:
+FULL MB SERVICE HISTORY
+LED/XENON FRONT & REAR LIGHTS
+REVERSE CAMERA
+FRONT & REAR DASH CAM (HARDWIRED)
+FRONT & REAR PARKING SENSORS
+17 INCH LOAD RATED WHEELS
+AM/FM RADIO WITH BLUETOOTH
+CONNECTIVITY
+PIONEER AMP & SUBWOOFER
+CRUISE CONTROL
+A/C (AIR CONDITION)
+REMOVABLE SEATS
+ELECTRIC SLIDING DOORS
+PLUS MORE"
   },
   {
     id: 4,
