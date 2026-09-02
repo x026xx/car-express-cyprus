@@ -75,7 +75,7 @@ const cars = [
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349922/photo_2026-09-02_13-45-16.jpg",
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349947/photo_2026-09-02_13-45-17.jpg",
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349974/photo_2026-09-02_13-45-18.jpg",
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349974/photo_2026-09-02_13-45-18.jpg"
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788350054/photo_2026-09-02_13-53-59.jpg"
 ],
     description: `Mercedes-Benz Vito 2.1119 Blue Tec SELECT Tourer G
 Tronic+ RWD L2 Euro 6 LWB Auto
