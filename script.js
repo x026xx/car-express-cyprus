@@ -77,7 +77,7 @@ const cars = [
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349974/photo_2026-09-02_13-45-18.jpg",
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788349974/photo_2026-09-02_13-45-18.jpg""
 ],
-    description: "Mercedes-Benz Vito 2.1119 Blue Tec SELECT Tourer G
+    description: `Mercedes-Benz Vito 2.1119 Blue Tec SELECT Tourer G
 Tronic+ RWD L2 Euro 6 LWB Auto
 
 8 Seater, LWB, White, 7 Speed G Tronic Gearbox, Full Mercedes Benz Service History, 240k Miles, MOT Till March 2027, 2 Keys, 17 Inch Alloy Wheels, Cloth Interior, Advance On Board Computer with AM/FM Radio, AUX/Bluetooth Media Connectivity, Cruise Control, A/ C Climate Control, Front & Rear Electric Windows, Electric Folding Mirrors, Tyre Pressure Monitor, Reverse Camera.
@@ -101,7 +101,7 @@ CRUISE CONTROL
 A/C (AIR CONDITION)
 REMOVABLE SEATS
 ELECTRIC SLIDING DOORS
-PLUS MORE"
+PLUS MORE`
   },
   {
     id: 4,
