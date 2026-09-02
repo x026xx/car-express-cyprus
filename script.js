@@ -21,7 +21,8 @@ const cars = [
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788345342/photo_2026-09-02_00-39-19.jpg",
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788345360/photo_2026-09-02_00-39-20.jpg",
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788345391/photo_2026-09-02_00-39-21.jpg",
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788345413/photo_2026-09-02_00-39-22.jpg"
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788345413/photo_2026-09-02_00-39-22.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788350054/photo_2026-09-02_13-53-59.jpg"
 ],
     description: "Full white Mercedes Vito Premium class"
   },
@@ -45,7 +46,8 @@ const cars = [
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788346867/photo_2026-09-02_12-55-46.jpg",
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788346888/photo_2026-09-02_12-55-48.jpg",
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788346915/photo_2026-09-02_12-55-49.jpg",
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788346954/photo_2026-09-02_12-55-50.jpg"
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788346954/photo_2026-09-02_12-55-50.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788350054/photo_2026-09-02_13-53-59.jpg"
 ],
     description: "A powerful AMG performance car. Replace this with the actual specification and history."
   },
