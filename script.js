@@ -21,9 +21,7 @@ const cars = [
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788345342/photo_2026-09-02_00-39-19.jpg",
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788345360/photo_2026-09-02_00-39-20.jpg",
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788345391/photo_2026-09-02_00-39-21.jpg",
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788345413/photo_2026-09-02_00-39-22.jpg",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85"
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788345413/photo_2026-09-02_00-39-22.jpg"
 ],
     description: "Full white Mercedes Vito Premium class"
   },
