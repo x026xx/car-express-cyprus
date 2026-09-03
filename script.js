@@ -165,20 +165,30 @@ Model`
   },
   { 
     id: 7,
-    make: "BMW",
-    model: "X5 M Competition",
-    year: 2023,
-    price: "€96,500",
-    mileage: "21,000 km",
-    fuel: "Petrol",
-    transmission: "Automatic",
-    engine: "4.4L V8",
-    power: "625 HP",
-    drive: "AWD",
+    make: "Ford",
+    model: "Transit",
+    year: 2018,
+    price: "€25.500",
+    mileage: "89.000 miles",
+    fuel: "Diesel",
+    transmission: "Manual",
+    engine: "2.2 TDCI",
+    power: "155 HP",
+    drive: "RWD",
     images: [
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788352674/placeholder.jpg"
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429777/788780263_1642469637502984_2593686227181365714_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429776/791996895_1642463840836897_6005256248727552988_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429776/792120557_1642463434170271_8134700508871891153_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429776/791355734_1642463430836938_4479829297521165715_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429776/791312732_1642463424170272_7051910777716504038_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429776/791996306_1642463884170226_4111471972501964275_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429777/793109441_1642463847503563_3338288093383913698_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429777/790366506_1642463834170231_6099758015238173070_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429777/791228255_1642464120836869_952630410117334465_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429777/793902612_1642464514170163_9037647857358285219_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788429776/792990630_1642464524170162_2699405042979952100_n.jpg"
 ],
-    description: "High-performance luxury SUV. Replace the demo information with the real car."
+    description: "Perfect condition. Was used for transef kids."
   },
   {
     id: 8,
