@@ -192,7 +192,7 @@ Model`
   },
   {
     id: 8,
-    make: "Mercedes-Beznz",
+    make: "Mercedes-Benz",
     model: "E220 Plug-in Hybrid",
     year: 2017,
     price: "€18.500",
