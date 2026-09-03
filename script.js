@@ -85,25 +85,7 @@ Tronic+ RWD L2 Euro 6 LWB Auto
 8 Seater, LWB, White, 7 Speed G Tronic Gearbox, Full Mercedes Benz Service History, 240k Miles, MOT Till March 2027, 2 Keys, 17 Inch Alloy Wheels, Cloth Interior, Advance On Board Computer with AM/FM Radio, AUX/Bluetooth Media Connectivity, Cruise Control, A/ C Climate Control, Front & Rear Electric Windows, Electric Folding Mirrors, Tyre Pressure Monitor, Reverse Camera.
 
 A Very Rare To Find In Colour & Spec Being The SELECT
-Model.
-
-This Is The LONG WHEEL BASE So Very SPACIOUS & COMFORTABLE.
-
-This Van Come Equipped With The Following:
-FULL MB SERVICE HISTORY
-LED/XENON FRONT & REAR LIGHTS
-REVERSE CAMERA
-FRONT & REAR DASH CAM (HARDWIRED)
-FRONT & REAR PARKING SENSORS
-17 INCH LOAD RATED WHEELS
-AM/FM RADIO WITH BLUETOOTH
-CONNECTIVITY
-PIONEER AMP & SUBWOOFER
-CRUISE CONTROL
-A/C (AIR CONDITION)
-REMOVABLE SEATS
-ELECTRIC SLIDING DOORS
-PLUS MORE`
+Model`
   },
   {
     id: 4,
@@ -128,41 +110,58 @@ PLUS MORE`
       "https://res.cloudinary.com/z8ogxroy/image/upload/v1788383095/photo_9_2026-09-02_23-02-16.jpg",
       "https://res.cloudinary.com/z8ogxroy/image/upload/v1788383101/photo_6_2026-09-02_23-02-16.jpg"
 ],
-    description: "A premium Porsche 911. Replace the demo description and image with your own vehicle information."
+    description: "."
   },
   {
     id: 5,
-    make: "BMW",
-    model: "X5 M Competition",
-    year: 2023,
-    price: "€96,500",
-    mileage: "21,000 km",
-    fuel: "Petrol",
+    make: "Range Rover",
+    model: "Sport HSE 3.0 SDV6 LUMMA EDITION",
+    year: 2015,
+    price: "€23.000",
+    mileage: "143.000 miles",
+    fuel: "Diesel",
     transmission: "Automatic",
-    engine: "4.4L V8",
-    power: "625 HP",
+    engine: "3.0L V6",
+    power: "320 HP",
     drive: "AWD",
     images: [
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788352674/placeholder.jpg"
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788427326/791044392_1780304859661241_5393338346585909067_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788427326/791513473_1719564236011264_5703431062371039904_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788427326/791684562_1477116240879207_4687638361507859223_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788427326/793092336_1374885321521751_86819435464938407_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788427326/792207051_1091302113469737_3072401884138162878_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788427326/792521110_1832376974411527_2916987044610088107_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788427325/788001498_1085964117354643_1164559278369976613_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788427326/791641620_1033211909480906_6809446214946494274_n.jpg"
 ],
-    description: "High-performance luxury SUV. Replace the demo information with the real car."
+    description: "High-performance luxury SUV."
   },
   {
     id: 6,
-    make: "Mercedes-Benz",
-    model: "G 63 AMG",
-    year: 2022,
-    price: "€159,900",
-    mileage: "28,000 km",
-    fuel: "Petrol",
+    make: "Range Rover",
+    model: "TDV6",
+    year: 2013,
+    price: "€21.000",
+    mileage: "117.000 miles",
+    fuel: "Diesel",
     transmission: "Automatic",
-    engine: "4.0L V8",
-    power: "585 HP",
+    engine: "3.0 V6",
+    power: "345 HP",
     drive: "AWD",
     images: [
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788352674/placeholder.jpg"
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428727/668104658_10167173103694418_4359246300918449151_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428660/667864875_10167173103809418_5844619439297718254_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428632/669046373_10167173103579418_2137513709734978687_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428632/668977303_10167173103834418_5776724108004846462_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428632/669119089_10167173103624418_6921785305335104439_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428631/668783670_10167173103589418_935921900268440142_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428631/669006623_10167173103419418_6306815663640468960_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428631/668536573_10167173103799418_3258145256137819634_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428631/668412347_10167173103619418_658999029087300181_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428631/668135134_10167173103574418_1895757039549974063_n.jpg",
+      "https://res.cloudinary.com/z8ogxroy/image/upload/v1788428631/668316704_10167173103569418_494510330019475993_n.jpg"
 ],
-    description: "Luxury performance SUV. Replace the demo information with the real vehicle."
+    description: "Luxury performance SUV."
   },
   { 
     id: 7,
