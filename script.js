@@ -240,8 +240,7 @@ Model`
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998698/791453635_1682512876881735_3504551449199058827_n.jpg",
       "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998702/793141674_1682513166881706_4829308417672256021_n.jpg"
 ],
-    description: "Modern and practical SUV with a 1.6L turbo petrol engine, manual transmission and a comfortable, spacious interior. Perfect for everyday driving.
-"
+    description: "Modern and practical SUV with a 1.6L turbo petrol engine, manual transmission and a comfortable, spacious interior. Perfect for everyday driving."
   },
   {
     id: 10,
