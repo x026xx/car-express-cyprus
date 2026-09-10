@@ -244,20 +244,31 @@ Model`
   },
   {
     id: 10,
-    make: "Mercedes-Benz",
-    model: "C63 S AMG",
-    year: 2021,
-    price: "€59,900",
-    mileage: "36,500 km",
+    make: "Kia",
+    model: "ProCeed GT",
+    year: 2020,
+    price: "€15,900",
+    mileage: "36,572 km",
     fuel: "Petrol",
     transmission: "Automatic",
-    engine: "4.0L V8",
-    power: "510 HP",
-    drive: "RWD",
+    engine: "1.5L T-GDI I4",
+    power: "160 HP",
+    drive: "FWD",
     images: [
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788352674/placeholder.jpg"
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000619/797187953_10239324527748915_165569981159424980_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000620/798539389_10239324527708914_3756322910209557168_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000619/797178432_10239324528508934_4394445924999987306_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000619/796497568_10239324527908919_3827569761659848003_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000620/798589654_10239324528868943_4964060031898373514_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000619/798416580_10239324577430157_4344315081336512858_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000619/797939458_10239324528108924_3137845053557670105_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000619/798516260_10239324529668963_7141935580554989514_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000620/793867808_10239324530548985_8061218111123888606_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000620/798743395_10239324530308979_8452269228568395219_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000620/796886544_10239324530348980_6233485566438976321_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789000620/794228692_10239324529228952_1010053106948531098_n.jpg"
 ],
-    description: "A powerful AMG performance car. Replace this with the actual specification and history."
+    description: "Sporty and practical Kia ProCeed GT with leather interior, navigation, cruise control and lane assist. Recently serviced with new tyres and full service history."
   },
   {
     id: 11,
