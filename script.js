@@ -216,20 +216,32 @@ Model`
   },
   {
     id: 9,
-    make: "BMW",
-    model: "X5 M Competition",
+    make: "Kia",
+    model: "Sportage",
     year: 2023,
-    price: "€96,500",
-    mileage: "21,000 km",
+    price: "€26,500",
+    mileage: "6,285 km",
     fuel: "Petrol",
-    transmission: "Automatic",
-    engine: "4.4L V8",
-    power: "625 HP",
-    drive: "AWD",
+    transmission: "Manual",
+    engine: "1.6L T-GDI I4",
+    power: "150 HP",
+    drive: "FWD",
     images: [
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788352674/placeholder.jpg"
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998651/794394849_1682513016881721_98570667678236797_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998662/791246113_1682512913548398_8882179190353598687_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998669/798404745_1682524443547245_1643283133962351174_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998673/789325541_1682513150215041_3195190709589523676_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998678/789617598_1682512953548394_4746152053614597239_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998682/792324098_1682513306881692_4625803358065295674_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998685/789250804_1682512883548401_129328385640636234_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998689/789250802_1682512920215064_1655421263280716785_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998692/792158064_1682513100215046_2033317895758303902_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998695/792133341_1682513036881719_5638703773207499596_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998698/791453635_1682512876881735_3504551449199058827_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788998702/793141674_1682513166881706_4829308417672256021_n.jpg"
 ],
-    description: "High-performance luxury SUV. Replace the demo information with the real car."
+    description: "Modern and practical SUV with a 1.6L turbo petrol engine, manual transmission and a comfortable, spacious interior. Perfect for everyday driving.
+"
   },
   {
     id: 10,
