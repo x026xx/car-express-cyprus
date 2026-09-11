@@ -294,19 +294,32 @@ Model`
   {
     id: 12,
     make: "Mercedes-Benz",
-    model: "C63 S AMG",
-    year: 2021,
-    price: "€59,900",
-    mileage: "36,500 km",
-    fuel: "Petrol",
+    model: "E350d AMG",
+    year: 2017,
+    price: "€18,900",
+    mileage: "113,658 km",
+    fuel: "Diesel",
     transmission: "Automatic",
-    engine: "4.0L V8",
-    power: "510 HP",
+    engine: "3.0L V6",
+    power: "255 HP",
     drive: "RWD",
     images: [
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788352674/placeholder.jpg"
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091731/790749476_10237117923102102_9165686392049565360_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091732/793212743_10237118063225605_6512596921397185938_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091731/792679528_10237117923142103_3091497893789688948_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091732/791179104_10237117924902147_1589360129261217080_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091731/790803479_10237117923862121_2713976416503495067_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091732/790847243_10237117923582114_1145738948009305784_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091732/791044389_10237117923622115_4401193944121874980_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091731/790756338_10237117923302107_8686053984681170384_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091732/792090198_10237117923062101_3701589259916741022_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091731/793000782_10237117922462086_777846486146117910_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091732/791335191_10237117922422085_5452979783873122627_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091732/791755667_10237117921982074_6060306459471417105_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091731/790756352_10237117922502087_3467394368543448379_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789091732/793000819_10237117921102052_6768867086461295873_n.jpg"
 ],
-    description: "A powerful AMG performance car. Replace this with the actual specification and history."
+    description: "Stunning 2017 Mercedes-Benz E350d AMG Line with a powerful 3.0L V6 diesel engine and automatic transmission. Comfortable, refined and economical, offering the perfect combination of luxury and performance."
   },
   {
     id: 13,
