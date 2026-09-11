@@ -272,20 +272,24 @@ Model`
   },
   {
     id: 11,
-    make: "Mercedes-Benz",
-    model: "C63 S AMG",
-    year: 2021,
-    price: "€59,900",
-    mileage: "36,500 km",
-    fuel: "Petrol",
+    make: "Kia",
+    model: "Optima",
+    year: 2018,
+    price: "€12,900",
+    mileage: "84,348 km",
+    fuel: "Diesel",
     transmission: "Automatic",
-    engine: "4.0L V8",
-    power: "510 HP",
-    drive: "RWD",
+    engine: "1.7L CRDi I4",
+    power: "141 HP",
+    drive: "FWD",
     images: [
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788352674/placeholder.jpg"
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789090705/685722881_2179720192788036_7930666983318664952_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789090705/687696484_1290743825915822_3806776720578488776_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789090705/690871028_1893581314652324_3890268577698661584_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789090705/689025800_4132010230385711_3302316894940487949_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789090705/640246937_27252647214332487_5564940048503580243_n.jpg"
 ],
-    description: "A powerful AMG performance car. Replace this with the actual specification and history."
+    description: "Stylish and comfortable 2018 Kia Optima with an economical diesel engine and automatic transmission. Spacious, reliable and perfect for everyday driving."
   },
   {
     id: 12,
