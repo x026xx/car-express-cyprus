@@ -872,7 +872,7 @@ function renderCars(filter = currentFilter) {
         </div>
 
         <div class="car-specs">
-          <span>${car.mileage}</span>
+          <span>${car.kilometers}</span>
           <span>•</span>
           <span>${car.fuel}</span>
           <span>•</span>
@@ -1046,7 +1046,7 @@ function openModal(id) {
     car.description;
 
   document.getElementById("modalSpecs").innerHTML = [
-    ["Mileage", car.mileage],
+    ["Kilometers", car.kilometers],
     ["Fuel", car.fuel],
     ["Transmission", car.transmission],
     ["Engine", car.engine],
