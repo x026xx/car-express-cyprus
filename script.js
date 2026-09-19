@@ -323,20 +323,30 @@ Model`
   },
   {
     id: 13,
-    make: "Mercedes-Benz",
-    model: "C63 S AMG",
-    year: 2021,
-    price: "€59,900",
-    kilometers: "36,500 km",
-    fuel: "Petrol",
-    transmission: "Automatic",
-    engine: "4.0L V8",
-    power: "510 HP",
-    drive: "RWD",
+    make: "Nissan",
+    model: "Qashqai 1.3 DIG-T",
+    year: 2025,
+    price: "€24,900",
+    kilometers: "5,236 km",
+    fuel: "Petrol Hybrid (MHEV)",
+    transmission: "Manual",
+    engine: "1.3L DIG-T",
+    power: "158 HP",
+    drive: "FWD",
     images: [
-      "https://res.cloudinary.com/jvcb5pej/image/upload/v1788352674/placeholder.jpg"
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789559/1.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789632/2.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789635/3.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789637/4.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789639/5.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789641/6.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789643/7.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789645/8.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789649/9.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789653/813520327_1691993385933684_5517422290621852577_n.jpg",
+      "https://res.cloudinary.com/jvcb5pej/image/upload/v1789789655/813372147_1691993415933681_3977233795554744918_n.jpg"
 ],
-    description: "A powerful AMG performance car. Replace this with the actual specification and history."
+    description: "2025 Nissan Qashqai N-Connecta 1.3 DIG-T MHEV with only 5,233 miles. Well-equipped with a 12.3” touchscreen, 360° camera, Apple CarPlay, keyless entry & start, ambient lighting, climate control, cruise control, lane assist and 18” alloy wheels. Professionally repaired and drives beautifully. CAT S."
   },
   {
     id: 14,
